@@ -1,0 +1,176 @@
+body {
+  background-color: #f4f6f9;
+}
+
+
+/*************Nav***********/
+.active-color {
+  background-color: #2f80ed !important;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 30px;
+  color: #fff !important;
+}
+
+.contact {
+  font-size: 1em;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+
+/************Jumbotron*********/
+
+
+.jumbotron {
+  color: #fff;
+  font-weight: bold;
+  background-image: url(../Img/main.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jumbo {
+  margin-bottom: 0 !important;
+}
+
+.btn {
+  background-color: #2f80ed;
+  color: #fff;
+  border: none;
+}
+
+
+/**********Vertical alignment of Text*********/
+
+.first {
+  display: flex;
+  align-items: center;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+}
+
+
+/**********Grid*********/
+
+.container {
+  margin-top: 20px;
+}
+
+.col-md-3,
+.col-md-2,
+.col-md-4,
+.col-md-6,
+.col-md-8 {
+  height: 500px;
+}
+
+
+.first,
+.third {
+  background-color: #f4f6f9;
+}
+
+.second,
+.stock-2 {
+  background-color: #fff;
+  margin-top: 0 !important;
+}
+
+
+/********Font-Size*********/
+
+.col-md-8 p {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+
+/*********Images**********/
+
+.stock {
+  background-image: url(../Img/stock.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+
+.stock-2 {
+  background-image: url(../Img/bacteria.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.stock-3 {
+  background-image: url(../Img/store.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+/*****************Citation***********/
+
+.blockquote-footer {
+  font-size: 12px;
+  background-color: #fff;
+  padding: 0;
+}
+
+
+/**************Footer***********/
+
+footer {
+  background-color: #2f80ed;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.footer-copyright {
+  text-align: center;
+  margin-top: 100px;
+  font-size: .7em;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.row h6 {
+  text-align: center;
+}
+
+/****************404**********/
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #f2f4f7;
+  max-width: 1140px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 150px 50px;
+  border: 2px solid #cacdd1;
+  border-radius: 1%;
+}
